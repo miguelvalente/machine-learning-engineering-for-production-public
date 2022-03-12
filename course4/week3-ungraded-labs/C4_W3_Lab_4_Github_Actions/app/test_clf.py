@@ -21,7 +21,7 @@ def test_accuracy():
 
 def test_pipeline_and_scaler():
 
-    isPipeline = isisntance(clf, Pipeline)
+    isPipeline = isinstance(clf, Pipeline)
     assert isPipeline
 
     if isPipeline:
